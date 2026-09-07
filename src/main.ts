@@ -6,7 +6,7 @@ import { ORPCAPipeline } from './pipeline/ORPCAPipeline';
 async function bootstrap() {
   document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div style="background: #111; color: #fff; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; padding-top: 2rem;">
-      <h2 style="font-family: monospace; color: #0f0;">L9 System: OR-PCA Hardware Passthrough</h2>
+      <h2 style="font-family: monospace; color: #0f0;">WebGPU accelerated OR-PCA</h2>
       
       <div style="position: relative; margin-top: 1rem;">
         <canvas id="output-canvas" style="border: 1px solid #333; transform: scaleX(-1); border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></canvas>
